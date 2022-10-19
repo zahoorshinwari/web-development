@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML FORM</title>
+</head>
+<body bgcolor="pink">
+	<!-- the fieldset is used to make the cover for the form-->
+	<fieldset>
+		<!-- legend is used for the title of the form-->
+		<legend>student registeration form</legend>
+<!-- form is used to make form name is for the showment that what is this, type can show that what are you write in it (text,number,password, radio button, email , date , color, wesite, country )            , placeholder are used to write something inside the box that can be show blur, autofocus is used to directly the cursor will be inside the box  ,   value is used that you want to write something automatically    , disabled is used that do not write any thing in it  , use read only that can only read can't write anything in it --> 
+<br><br>
+	<form align="center">
+
+		<b>enter name:</b><input type="" placeholder="enter your name" autofocus="true" size="50" value="zahoor khan" title="enter your name" >
+		<br> <br>
+		<b>father name:</b> <input type="" placeholder="enter your father name" autofocus="true" size="50"  title="enter your father name"  pattern="[a-zA-Z0-9]+"> <br><br>
+
+
+		<!-- here we can write for the password-->
+		<b>password:</b><input type="password" size="50">
+		<br><br>
+		<!-- here we can write for the gender radio is used for the selection of one male or female and name = "gender " is used to select only one-->
+
+		<b>gender:</b><input type="radio" name="gender">male <input type="radio" name="gender">female
+		<br><br>
+
+		<!-- it is used for the languages to select only one language  , radio is for the selection and we can write in the name = language then it is for only one selection -->
+
+		<b>language :</b>
+		<input type="radio" name="language">english
+		<input type="radio" name="language">pashto
+		<input type="radio" name="language">urdu
+		<input type="radio" name="language">farsi
+		<br><br>
+
+		<!-- here the image can be choosen or we can choose any other file -->
+		<b>image :</b><input type="file">
+		<br><br>
+
+
+
+
+
+		<!-- in this we can select the age , age is in the number and minimum is 13 and maximum is 60 -->
+		<b>age :</b><input type="number" min="13" max="60">
+		<br><br>
+
+
+		<!-- here we can insert the email-->
+		<b>email :</b><input type="email" >
+		<br><br>
+
+		<!-- here we can insert the data -->>
+		<b>date :</b><input type="date" >
+		<br><br>
+
+		<!-- it is for the message that the some one can write something about that ,   textarea is used to wite the text in this area and row and colomns can show us the size-->
+		<b>message :</b> <textarea rows="10" cols="30"></textarea>
+		<br><br>
+
+
+		<!-- it is for the selection of the country that how to select the country -->
+		<b>country :</b><select>
+			<option>pakistan</option>
+			<option>afghanistan</option>
+			<option>dubai</option>
+			<option>india</option>
+			<option>saudi arabia</option>
+		</select>
+		<br><br>
+
+		<!-- here we can take color in the form-->
+		<b>color :</b><input type="color" >
+		<br><br>
+
+
+		<!-- here we can insert the website or url of any other thing -->
+		<b>website</b><input type="url" name=""> <br><br>
+
+		<!-- time is used to insert time and range is used to insert range in it-->
+
+		<b>time :</b><input type="time" name=""> <br><br>
+		<b>range :</b><input type="range" name=""> <br><br>
+
+
+
+
+
+		<!-- country is just the name of that cell that what is this, text means here can insert only the text , list = test this is just the name of the list , datalist is the list of the data that can be store on it , in the id we can assign the test which is the datalist name , option is used to select which option or which country ,   and label is just to write its description of this option or country -->
+
+		<b>country :</b><input type="text" list="test">
+		<datalist id="test">
+			<option value="pakistan" label="pak">
+			<option value="saudi arabia" label="saudi">
+			<option value="afghanistan" label="afg">
+			<option value="dubai" label="UAE">
+			<option value="india" label="int">
+		</datalist>
+
+
+
+
+
+
+
+
+
+
+		<br><br>
+		<!-- here we can just submit the entry and reset the entry also make the sign up as well as the simple button-->
+		<input type="reset" >
+		<button type="button">button</button>
+		<input type="button" value="sign up">
+		<input type="submit" >
+	</fieldset>
+
+
+
+	</form>
+</body>
+</html>
