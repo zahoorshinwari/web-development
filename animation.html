@@ -4,7 +4,18 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>animation in html5</title>
+
+
+<!--
+	(the style tag can be written before the head)
+ style is used for the background animation , body is used for the body of the web page , animation is attribute for animation , test animation is name of that 5s is for that it can repeat after 5 second , infinite is for the looping which is infinite time , @keyframe if for the frame of the webpage or body and below are the color which are changing in the page , linear are the type of animation -->
+
+
+
+
+	<!-- we can apply it on texts tag as well as mor and more just write its name and it will apply on it , after the style then we can write any tags -->
 	<style>
+
 			body
 			{
 				animation: test_animation 5s infinite linear;
@@ -22,6 +33,28 @@
 				80%{background-color: black;}
 				90%{background-color: purple;}
 				100%{background-color: silver;}
+			} 
+	</style>
+
+	<style>
+
+			h1
+			{
+				animation: test1_animation 10s infinite linear;
+			}
+			@keyframes test1_animation
+			{
+				0%{color:yellow; }
+				10%{color: grey;}
+				20%{color: blue;}
+				30%{color: pink;}
+				40%{color: white;}
+				50%{color: orange;}
+				60%{color: red;}
+				70%{color: green;}
+				80%{color: black;}
+				90%{color: purple;}
+				100%{color: silver;}
 			} 
 	</style>
 </head>
