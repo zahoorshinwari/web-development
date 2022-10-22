@@ -1,0 +1,57 @@
+body
+{
+	 
+	background-image: url(images1/3.jpg);
+}
+table
+{
+	width: 800px;
+	background-color: white;
+	margin-left: 400px;
+	margin-top: 400px;
+	margin-right: 200px;
+	margin-bottom: 200px;
+}
+th 
+{
+	background-color: black;
+	font-size: 20px;
+	color: red;
+	height: 40px;
+	font-family: bold;
+}
+#row1
+{
+	background-color: pink;
+	color: white;
+	font-size: 15px;
+	font-family: bold;
+}
+tr
+{
+	color: black;
+	text-align: center;
+	font-size: 15px;
+	background-color: white;
+
+}
+tr:hover
+{
+	background-color: rgba(150, 100, 0, 0.5);
+	color: white;
+	font-size: 17.5px;
+	font-family: bold;
+}
+/* class is used to edit multiple rows or multiple element changes*/
+.test_rows
+{
+	background-color: rgba(200, 100, 50, 0.5);
+	color: black;
+	font-size: 15px;
+	font-family: bold;
+}
+.lastentry
+{
+	background-color: yellow;
+	font-size: 20px;
+}
