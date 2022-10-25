@@ -1,0 +1,71 @@
+body
+{
+	background-image: url(images1/light.jpg);
+}
+form
+{
+	margin-left: 500px;
+	margin-top: 50px;
+}
+label
+{
+	font-size: 20px;
+	font-weight: bold;
+	color: 	black;
+}
+input
+{
+	width: 400px;
+	height: 30px;
+	opacity: 0.4;
+	border: 1px solid black;
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+	padding-left: 20px;
+	border-radius: 10px;
+}
+input[type="submit"]
+{
+	width: 200px;
+	height: 35px;
+	margin-left: 125px;
+	background-color: lightblue;
+	opacity: 0.5;
+	border: 1px solid white;
+ 	
+}
+input[type="submit"]:hover
+{
+	background-color: pink;
+	border-radius: 20px;
+}
+
+input:focus
+{
+	background-color: skyblue;
+	
+}
+
+#comments
+{
+	width: 150px;
+	height: 30px;
+	opacity: 0.4;
+	border: 1px solid black;
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+	padding-left: 20px;
+}
+#comments:focus
+{
+	width: 500px;
+	height: 50px;
+	color: white;
+	background-color: pink;
+	font-size: 20px;
+
+
+
+}
