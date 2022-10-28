@@ -1,0 +1,115 @@
+.top_line
+{
+	width: 100%;
+	height: 50px;
+	background-color: yellow;
+	background: linear-gradient(to left , yellow , black);
+	border: 1px solid black;
+}
+.header
+{
+	width: 100.15%;
+	height: 500px;
+	background-color: lightblue;
+	margin-top: -15px;
+}
+
+
+
+.logo
+{
+	margin-top: 20px;
+
+	float: left;
+	
+}
+
+.menu
+{
+
+}
+
+.menu ul
+{
+	margin-left: 500px;
+	padding-top: 20px ;
+}
+.menu ul li 
+{
+	list-style: none;
+	float: left;
+	padding-left: 20px;
+	font-size: 15px;
+	color: blue;
+	width: 70px;
+	height: 20px;
+
+}
+
+.menu ul li:hover
+{
+	background-color: white;
+}
+
+
+
+img
+{
+	width: 1570px;
+	height: 440px;
+	margin-top: 80px;
+}
+.left
+{
+	width: 300px;
+	height: 500px;
+	background-color: yellow;
+	margin-top: 20px;
+	float: left;
+}
+
+.center
+{
+	width: 700px;
+	height: 500px;
+	background-color: lightblue;
+	margin-top: 20px;
+	margin-left: 320px;
+}
+
+.footer
+{
+	width: 100%;
+	height: 100px;
+	background: linear-gradient(to left , yellow , black);
+	margin-top: 20px;
+}
+
+
+
+
+.div1
+{
+	width: 500px;
+	height: 500px;
+	background-color: white;
+	float: right;
+	margin-top: 20px;
+}
+
+.div1 h3
+{
+	padding: 100px 120px;
+	font-size: 100px;
+	transition: width 10s , height 10s , transform 10s;
+	color: blue;
+
+
+}
+.div1 h3:hover
+{
+	width: 150px;
+	height: 150px;
+	transform: rotate(360deg);
+
+}
