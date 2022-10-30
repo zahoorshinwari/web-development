@@ -1,0 +1,22 @@
+<style>
+		
+			body
+			{
+				background-color: yellowgreen;
+			}
+			
+		@media screen and (max-width: 720px)
+		{
+			body
+			{
+				background-color: hotpink;
+			}
+		}
+		@media screen and (max-width: 480px)
+		{
+			body
+			{
+				background-color: darkred;
+			}
+		}
+	</style>
