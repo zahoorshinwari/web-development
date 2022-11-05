@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>navigation bar and dropdown</title>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+
+<!-- (navbar navbar-fixed-top) it is used that the navigation bar bar will be always at the top if the page is scrolling   ( if you want in bottom then just write the bottom with it)-->
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-sm-12">
+			<nav class="navbar navbar-inverse navbar navbar-fixed-top">
+ 
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">islamia college</a>
+
+
+
+
+<!-- 
+      when the web page are comes on the mobile screen than the navigation bar can show in more space so 
+      we can do that the navigation bar are comes in just 1 button when we click it then it can comes -->
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynav">
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+</button>
+
+
+    <div class="collapse navbar-collapse" id="mynav">
+    	
+    	<ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">admission
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">BS admission</a></li>
+          <li><a href="#">MS admission</a></li>
+          <li><a href="#">BSC</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Department</a></li>
+      <li><a href="#">Contact us</a></li>
+      <li><a href="#">About us</a></li>
+    </ul>
+
+<!-- when we want to insert somethint within this column on the right side  -->
+<ul class="nav navbar-nav navbar-right">
+	<li><a href="#"> <span class="glyphicon glyphicon-user"></span> Login</a></li>
+	<li><a href="#">Signup <span class="glyphicon glyphicon-refresh"></span></a></li>
+</ul>
+
+<!-- when we want to insert the search textfield in the navigation bar  -->
+<ul class="nav navbar-nav navbar-left">
+	<form>
+		<div class="form-group" >
+			<input type="text" class="form-control" placeholder="search here" >
+		</div>
+	</form>
+</ul>
+    </div>
+
+
+
+  </div>
+</nav>
+
+		</div>	
+	</div>
+</div>
+   
+
+
+
+
+
+</body>
+</html>
