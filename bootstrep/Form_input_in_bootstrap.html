@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>form input in bootstrap</title>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-8">
+				<form>
+					<h1 class="text-center">input in the form</h1>
+					<div class="form-group">
+						<strong>select :<input type="checkbox" name=""></strong>
+					</div>
+					<div class="form-group">
+						<label>select1 :<input type="checkbox" name=""></label>
+					</div>
+					<div class="form-group">
+						<div class="checkbox">
+							<label><input type="checkbox" name="">option1</label>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="checkbox">
+							<label><input type="checkbox" name="">option2</label>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="checkbox">
+							<label><input type="checkbox" name="">option3</label>
+						</div>
+					</div><hr><br><br>
+					<!-- use inline classes for the checkbox -->
+					<h1 class="text-center">use inline classes for the checkbox</h1><hr>
+					<label class="checkbox-inline"><input type="checkbox" name="">Computer</label>
+					<label class="checkbox-inline"><input type="checkbox" name="">English</label>
+					<label class="checkbox-inline"><input type="checkbox" name="">Maths</label>
+					<label class="checkbox-inline"><input type="checkbox" name="">Botany</label>
+					<label class="checkbox-inline"><input type="checkbox" name="">Zoology</label>
+					<br><br>
+
+					<!-- Radio button -->
+					<h1 class="text-center">Radio button</h1><hr>
+					<label class="radio"><input type="radio" name="gender">male</label>
+					<label class="radio"><input type="radio" name="gender">female</label>
+					<br>
+					<label class="radio-inline"><input type="radio" name="gender">male</label>
+					<label class="radio-inline"><input type="radio" name="gender">female</label>
+					
+					
+				</form><br>
+				<!-- validation states for form in bootstrap -->
+				<h1 class="text-center text-warning">validation state for form in bootstrap</h1><hr>
+				<form class="form-horizontal">
+					<div class="form-group has-warning has-feedback">
+						<label class="col-sm-2">Name :</label>
+						<div class="col-sm-7">
+							<input type="text" class="form-control" name="">
+							<span class="glyphicon glyphicon-search form-control-feedback"></span>
+						</div>
+					</div>
+					<div class="form-group has-warning has-feedback">
+						<label class="col-sm-2">password :</label>
+						<div class="col-sm-7">
+							<input type="password" class="form-control" name="">
+							<span class="glyphicon glyphicon-user form-control-feedback"></span>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
