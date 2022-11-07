@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>careusel in bootstrap</title>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+<!-- here we can give the style to the images in the carousel -->
+<style >
+		.carousel-inner > .item > 
+		img
+		{
+			width: 400px;
+			height: 600px;
+			margin: auto;
+		}	
+</style>
+</head>
+<body>
+
+		<div class="container-fluid">
+			<div class="carousel slide" id="mycarousel" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#mycarousel" data-slide-to="1"></li>
+					<li data-target="#mycarousel" data-slide-to="2"></li>
+					<li data-target="#mycarousel" data-slide-to="3"></li>
+					<li data-target="#mycarousel" data-slide-to="4"></li>
+				</ol>
+
+				<div class="carousel-inner">
+					<div class="item active">
+						<img src="images/1.jpeg">
+
+						<!-- we can take a caption in the first image -->
+						<div class="carousel-caption">
+							 <h1 style="color: lightblue;">welcome to islamia college</h1> 
+							<button class="btn btn-primary">submit</button>
+						</div>
+					</div>
+					<div class="item">
+						<img src="images/2.jpg">
+					</div>
+					<div class="item">
+						<img src="images/3.jpg">
+					</div>
+					<div class="item">
+						<img src="images/4.jpg">
+					</div>
+					<div class="item">
+						<img src="images/5.jpg">
+					</div>
+				</div>
+
+				<a href="#mycarousel" class="left carousel-control" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+				</a>
+				<a href="#mycarousel" class="right carousel-control" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+				</a>
+			</div>
+		</div>
+
+
+
+
+
+</body>
+</html>
