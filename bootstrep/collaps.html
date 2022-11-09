@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>collapsable in bootstrap</title>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+	<button class="btn btn-info" data-toggle="collapse" data-target="#mycollapse">collapse button</button>
+	<div id="mycollapse" class="collapse">
+		<h1>this is collapsable class</h1>
+		<p>hallo i am collapsable class paragraph and you can seen me here that i am collapse withe the above button</p>
+	</div><br><br><br>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="panel-group" id="accordian">
+					<!-- this is 1st panel -->
+					<div class="panel panel-success">
+						<div class="panel-header">
+							<h1 class=" text-center">
+								<a href="#mission" data-toggle="collapse" data-parent="accordian">Our Mission</a>
+							</h1>
+						</div>
+						<div id="mission" class="collapse panel-collapse">
+							<div class="panel-body">
+								<h1 class="text-center">this is our mission section</h1>
+								<p class="text-center">this is our mission section paragraph and we are connected through by using id=mission and that is present in the our mission</p>
+							</div>
+						</div>
+					</div>
+					<!-- this is second panel -->
+					<div class="panel panel-success">
+						<div class="panel-header">
+							<h1 class=" text-center">
+								<a href="#vision" data-toggle="collapse" data-parent="accordian">Our vision</a>
+							</h1>
+						</div>
+						<div id="vision" class="collapse panel-collapse">
+							<div class="panel-body">
+								<h1 class="text-center">this is our mission section</h1>
+								<p class="text-center">this is our vision section paragraph and we are connected through by using id=vission and that is present in the our vission</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
